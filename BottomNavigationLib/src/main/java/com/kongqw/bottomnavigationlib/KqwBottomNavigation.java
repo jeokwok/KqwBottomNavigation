@@ -45,6 +45,7 @@ public class KqwBottomNavigation extends RelativeLayout {
         mRadioButton3 = (RadioButton) view.findViewById(R.id.rb3);
         mRadioButton4 = (RadioButton) view.findViewById(R.id.rb4);
 
+       设置图标的方法
         mRadioButton1.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
